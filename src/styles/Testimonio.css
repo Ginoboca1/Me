@@ -1,0 +1,66 @@
+
+.contenedor-testimonio{
+    width: 80%;
+    margin: 3rem auto;
+    display: flex;
+    gap: 3rem;
+    background-color:#f5f6f7;
+    padding: 1rem;
+    box-shadow: 0 3px 13px 1px rgb(0, 0, 0 / 15%);
+    
+}
+
+.text-container{
+
+}
+
+
+.image-testimonio{
+    width: 15rem;
+    border-radius: 50%;
+    border: solid var(--red) 4px;
+}
+
+.name-collaborator{
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.job-collaborator{
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+.description{
+    line-height: 1.5rem;
+    font-weight: bold;
+}
+
+@media(max-width: 768px) {
+    .contenedor-testimonio{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .image-testimonio{
+        width: 9rem;
+        border-radius: 50%;
+        border: solid var(--red) 2px;
+    }
+
+    .text-container{
+        text-align: center;
+    }
+
+    .name-collaborator{
+        font-size: 2rem;
+        text-transform: uppercase;
+    }
+    
+
+    .job-collaborator{
+        margin: 5px 0;
+    }
+}

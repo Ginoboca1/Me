@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,400;8..144,500&display=swap');
+
+:root{
+    --red: #e5202b;
+    --black: #1a1b1b;
+    --grey: #2B2B2A;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html,body{
+    box-sizing: border-box;
+    font-size: 62,5%;
+    background-color: #e2e2e2;
+    font-family: 'Roboto Flex', sans-serif;
+}
+
+.app{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.app-container{
+    width: 100%;
+    margin: 2rem auto;
+}
+
+.title{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.line{
+    width: 300px;
+    border: 1px var(--grey) solid;
+    margin-top: 2rem;
+}
+
+.menu-btn{
+    position: absolute;
+    cursor: pointer;
+    top: 60px;
+    left: 0%;
+    font-size: 1.5rem;
+    margin-left: 1rem ;
+    display: none;
+}

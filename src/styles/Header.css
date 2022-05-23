@@ -1,0 +1,68 @@
+
+.header-contenedor{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.logotype{
+    width: 4rem;
+    border-radius: 50%;
+}
+
+
+
+.redes{
+    display: flex;
+    gap: 2rem;
+    color: var(--black);
+}
+
+.red{
+    font-size: 2rem;
+}
+
+.red a{
+    color: var(--black);
+}
+
+.red a:hover{
+    color: var(--red);
+    transition: 0.2s;
+}
+
+@media(max-width: 768px) {
+    .header-contenedor{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 1rem;
+    }
+
+    .redes{
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: var(--red);
+        height: 100%;
+        width: 8rem;
+        padding: 30px;
+        opacity: .9;
+        transform: translateX(-500px);
+        transition: ease-in-out;
+    }
+
+    .red{
+        margin-top: 2rem ;
+    }
+
+    .redes.show{
+        transform: translateX(0);
+        
+    }
+
+}

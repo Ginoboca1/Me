@@ -1,0 +1,25 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: var(--grey);
+    font-weight: bolder;
+}
+
+.navbar a:hover{
+    color: var(--red);
+    transition: 0.2s;
+}
+
+@media(max-width: 768px) {
+    .navbar{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        text-align: center;
+    }
+}
