@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Ginoboca1/Me/static/css/main.5d7fc675.css",
+    "main.js": "/Ginoboca1/Me/static/js/main.04a1afb9.js",
+    "static/js/787.a74095cd.chunk.js": "/Ginoboca1/Me/static/js/787.a74095cd.chunk.js",
+    "static/media/david.jpg": "/Ginoboca1/Me/static/media/david.9ec8e3b21151e5370fa2.jpg",
+    "static/media/gino.jpg": "/Ginoboca1/Me/static/media/gino.180ecfb734f247293249.jpg",
+    "static/media/brandon.jpg": "/Ginoboca1/Me/static/media/brandon.e2b81de5100b1133dfab.jpg",
+    "static/media/andrew.jpg": "/Ginoboca1/Me/static/media/andrew.0717fedb13903648c175.jpg",
+    "static/media/mkbhd.webp": "/Ginoboca1/Me/static/media/mkbhd.3c1812cdf0c0cd946da9.webp",
+    "index.html": "/Ginoboca1/Me/index.html",
+    "main.5d7fc675.css.map": "/Ginoboca1/Me/static/css/main.5d7fc675.css.map",
+    "main.04a1afb9.js.map": "/Ginoboca1/Me/static/js/main.04a1afb9.js.map",
+    "787.a74095cd.chunk.js.map": "/Ginoboca1/Me/static/js/787.a74095cd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5d7fc675.css",
+    "static/js/main.04a1afb9.js"
+  ]
+}
