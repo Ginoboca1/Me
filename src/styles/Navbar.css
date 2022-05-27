@@ -23,3 +23,7 @@
         text-align: center;
     }
 }
+
+.active{
+    color: var(--red);
+}

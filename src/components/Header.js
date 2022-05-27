@@ -1,3 +1,9 @@
+import {
+  BrowserRouter as Router,
+  Route,
+  Routes,
+} from "react-router-dom";
+
 import { toBeRequired } from '@testing-library/jest-dom/dist/matchers';
 import React from 'react';
 import '../styles/Header.css';
@@ -5,9 +11,11 @@ import Navbar from './Navbar.js';
 import { FaYoutube } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
-import { BiShoppingBag } from "react-icons/bi";
 import { AiOutlineMenu } from "react-icons/ai";
 import { AiFillLinkedin } from "react-icons/ai";
+import ContactoPages from '../Pages/ContactoPages';
+import ProyectosPages from '../Pages/ProyectosPages';
+
 
 
 
@@ -51,12 +59,18 @@ function Header(){
                  alt='mkbhd-logo'
                  />
             </div>
-
+ 
             <div className='navbar-container'>
-              <Navbar menu = 'Home' proyectos = 'Proyectos' contacto = "Contacto"/>
+              <Router>
+                <Navbar menu = 'Home' proyectos = 'Proyectos' contacto = "Contacto"/>
+                <Routes>
+                  <Route path="/src/Pages/ProyectosPages.js" element={<ProyectosPages />} />
+                  <Route path="/src/Pages/ContactoPages.js" element={<ContactoPages />} />
+                </Routes>
+              </Router>  
             </div>
-            
         </header>
+        
     )
 }
 
