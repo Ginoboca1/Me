@@ -1,29 +1,34 @@
+import {
+  BrowserRouter as Router,
+  Route,
+  Routes,
+} from "react-router-dom";
+
 import React from 'react';
 import './App.css';
-import Testimonio from './components/testimonio';
 import Header from './components/Header';
-import Portada from './components/Portada';
-import Ubicacion from './components/Ubicacion';
+import Home from './Pages/Home';
+import Proyectos from './Pages/Proyectos';
+import Contacto from './Pages/Contacto';
 
 
 
  
 function App(){
     return (
-       <div className='app'>
+      <Router>
+        <div className='app'>
           <div className='app-container'>
             <Header />
-            <Portada menu = 'Home' proyectos = 'Proyectos' contacto = "Contacto" />
-            <h1 className='title'>¿Quien soy?</h1>
-            <Testimonio 
-             name = 'Gino Boca'
-             imagen = 'gino'
-             job = 'Frontend Web Developer'
-             description = 'Hey! Hola, mi nombre es Gino. Soy Frontend Web Developer, diseño Web Responsives y me especializo en React. Disfruto mucho del cafe en todas sus versiones, la musica, el ejercicio y de los gatos. En serio, amo los gatos.'
-            />
-            <Ubicacion/>
           </div>
         </div>
+
+        <Routes>
+            <Route path = '/home' element = {<Home />} />
+            <Route path="/proyectos" element={<Proyectos />} />
+            <Route path="/contacto" element={<Contacto />} />
+        </Routes>
+      </Router>
     )
 }
 
