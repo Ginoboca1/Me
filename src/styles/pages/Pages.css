@@ -11,7 +11,7 @@
 .contacto-links{
 
     display: grid;
-    gap: 3rem;
+    gap: 2rem;
     text-transform: uppercase;
 }
 
@@ -32,9 +32,20 @@
     transition: 0.2s;
 }
 
-.contacto-links a:first-child{
+.contacto-links a:last-child{
     background-color: var(--red);
 }
-.contacto-links a:first-child:hover{
+.contacto-links a:last-child:hover{
     background-color: rgb(207, 8, 8);
+}
+
+
+/*CONTACTO*/
+
+.contenedor-contacto{
+    font-weight: 500;
+}
+
+.contenedor-contacto span{
+    color: var(--red);
 }

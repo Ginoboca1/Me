@@ -10,7 +10,7 @@ function Navbar(props){
             <nav className='navbar'>
               <NavLink
                className={({ isActive }) => (isActive ? "active" : "")}
-               to= '/home'>{props.menu}
+               to= '/'>{props.menu}
                </NavLink>
               <NavLink className={({ isActive }) => (isActive ? "active" : "")} to= '/proyectos'>{props.proyectos}</NavLink>
               <NavLink className={({ isActive }) => (isActive ? "active" : "")} to= '/contacto'>{props.contacto}</NavLink>

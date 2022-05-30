@@ -13,6 +13,7 @@ import Contacto from './Pages/Contacto';
 
 
 
+
  
 function App(){
     return (
@@ -24,7 +25,7 @@ function App(){
         </div>
 
         <Routes>
-            <Route path = '/home' element = {<Home />} />
+            <Route path = '/' element = {<Home />}  />
             <Route path="/proyectos" element={<Proyectos />} />
             <Route path="/contacto" element={<Contacto />} />
         </Routes>
