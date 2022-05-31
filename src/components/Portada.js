@@ -2,6 +2,7 @@ import React from 'react';
 import '../styles/Portada.css';
 import { SiGooglemessages } from "react-icons/si";
 import { FaGithub } from "react-icons/fa";
+import { Link } from 'react-router-dom';
 
 
 function Portada(props){
@@ -10,9 +11,9 @@ function Portada(props){
           <div className='text-container'>
            <h1 className='portada-title'>Desarrollo Web</h1>
            <div className='portada-links'>
-              <a href='/'>{props.menu}</a>
-              <a href='/https://github.com/Ginoboca1?tab=repositories'> <FaGithub />{props.proyectos}</a>
-              <a href='/contacto'> <SiGooglemessages />{props.contacto}</a>
+              <Link to ='/'>{props.menu} </Link>
+              <a href ='https://github.com/Ginoboca1?tab=repositories'> <FaGithub />{props.proyectos} </a>
+              <Link to ='/contacto'> <SiGooglemessages />{props.contacto} </Link>
            </div>
            <div className='line'></div>
          </div>

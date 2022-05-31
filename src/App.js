@@ -22,9 +22,9 @@ function App(){
         </div>
 
         <Routes>
-            <Route path= '/' element = {<Home />}  />
-            <Route path= '/proyectos' element={<Proyectos />} />
-            <Route path='/contacto' element={<Contacto />} />
+            <Route exact path= '/' element = {<Home />}  />
+            <Route exact path= '/proyectos' element={<Proyectos />} />
+            <Route exact path='/contacto' element={<Contacto />} />
         </Routes>
       </HashRouter>
     )
