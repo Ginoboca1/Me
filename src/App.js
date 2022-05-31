@@ -1,5 +1,5 @@
 import {
-  BrowserRouter,
+  HashRouter,
   Route,
   Routes,
 } from "react-router-dom";
@@ -12,12 +12,9 @@ import Proyectos from './Pages/Proyectos';
 import Contacto from './Pages/Contacto';
 
 
-
-
- 
 function App(){
     return (
-      <BrowserRouter>
+      <HashRouter>
         <div className='app'>
           <div className='app-container'>
             <Header />
@@ -29,7 +26,7 @@ function App(){
             <Route path= '/proyectos' element={<Proyectos />} />
             <Route path='/contacto' element={<Contacto />} />
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
     )
 }
 
