@@ -1,5 +1,5 @@
 import {
-  BrowseRouter,
+  BrowserRouter,
   Route,
   Routes,
 } from "react-router-dom";
@@ -17,7 +17,7 @@ import Contacto from './Pages/Contacto';
  
 function App(){
     return (
-      <BrowseRouter basename = {process.env.PUBLIC_URL}>
+      <BrowserRouter basename = {process.env.PUBLIC_URL}>
         <div className='app'>
           <div className='app-container'>
             <Header />
@@ -25,11 +25,11 @@ function App(){
         </div>
 
         <Routes>
-            <Route path = '/' element = {<Home />}  />
-            <Route path="/proyectos" element={<Proyectos />} />
-            <Route path="/contacto" element={<Contacto />} />
+            <Route path= '/' element = {<Home />}  />
+            <Route path= '/proyectos' element={<Proyectos />} />
+            <Route path='/contacto' element={<Contacto />} />
         </Routes>
-      </BrowseRouter>
+      </BrowserRouter>
     )
 }
 
