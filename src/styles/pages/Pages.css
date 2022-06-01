@@ -1,11 +1,23 @@
 .contenedor-principal{
     width: 100%;
-    margin: 2rem auto;
+    margin: 8rem auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 2rem;
+}
+
+@media(max-width: 768px) {
+    .contenedor-principal{
+        width: 100%;
+        margin: 9rem auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+    }
 }
 
 .contacto-links{
