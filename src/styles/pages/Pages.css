@@ -61,3 +61,18 @@
 .contenedor-contacto span{
     color: var(--red);
 }
+
+.mailme{
+    text-align: center;
+    margin-top: 2rem;
+  
+}
+.mailme a{
+    text-decoration: none;
+    color: var(--black);
+}
+.mailme h4{
+    border: solid 2px var(--black);
+    padding: 0.5rem 0;
+    letter-spacing: 2px;
+}

@@ -43,12 +43,8 @@ function Header(){
               </div>
             </div>
 
-            <div>
-                <img
-                 className='logotype'
-                 src={require('../images/mkbhd.webp')}
-                 alt='mkbhd-logo'
-                 />
+            <div className = "contenedor-logo">
+                <p className='logo'>gnoboc</p>
             </div>
  
             <div className='navbar-container'>

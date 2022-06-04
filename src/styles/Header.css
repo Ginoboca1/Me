@@ -9,12 +9,26 @@
     background: #e2e2e2 ;
     opacity: 0.9;
     padding-top: 1rem;
+    padding-bottom: 0.5rem;
     backdrop-filter: blur(8px);
 }
 
-.logotype{
-    width: 4rem;
-    border-radius: 50%;
+.contenedor-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid var(--black) 2px;
+    width: fit-content;
+    margin-top: 1rem;
+}
+
+.logo{
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 600;
+    margin: 0.5rem 0.5rem; 
+    color: var(--black);
 }
 
 
@@ -67,6 +81,14 @@
     .redes.show{
         transform: translateX(0);
         
+    }
+
+    .contenedor-logo{
+        margin-top: 0.5rem;
+    }
+
+    .logo{
+        font-weight: bold;
     }
 
 }

@@ -12,7 +12,7 @@ function Portada(props){
            <h1 className='portada-title'>Desarrollo Web</h1>
            <div className='portada-links'>
               <Link to ='/'>{props.menu} </Link>
-              <a href ='https://github.com/Ginoboca1?tab=repositories'> <FaGithub />{props.proyectos} </a>
+              <a href ='https://github.com/Ginoboca1?tab=repositories'> <FaGithub />Repositorio </a>
               <Link to ='/contacto'> <SiGooglemessages />{props.contacto} </Link>
            </div>
            <div className='line'></div>

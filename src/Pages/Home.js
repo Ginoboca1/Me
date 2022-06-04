@@ -11,7 +11,7 @@ function Home() {
              name = 'Gino Boca'
              imagen = 'gino'
              job = 'Frontend Web Developer'
-             description = 'Hey! Hola, mi nombre es Gino. Soy Frontend Web Developer, diseño Web Responsives y me especializo en React. Disfruto mucho del cafe en todas sus versiones, la musica, los deportes y de los gatos. En serio, amo los gatos.'
+             description = 'Hola! mi nombre es Gino. Soy Frontend Web Developer, diseño Web Responsives y me especializo en React. Disfruto mucho del cafe, la musica, los deportes y de los gatos. No, en serio. Amo los gatos.'
             />
              <Ubicacion/>
         </div>
