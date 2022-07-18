@@ -32,6 +32,7 @@
     color: white;
     display: flex;
     justify-content: center;
+    text-align: center;
     align-items: center;
     gap: 0.5rem;
     width: 200px;
@@ -73,6 +74,6 @@
 }
 .mailme h4{
     border: solid 2px var(--black);
-    padding: 0.5rem 0;
+    padding: 0.5rem 0.5rem;
     letter-spacing: 2px;
 }

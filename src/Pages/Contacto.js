@@ -9,8 +9,8 @@ export default function Contacto() {
           <p>Mail <span>gnoboca@gmail.com</span></p>
           <p>Telefono <span>+54 341-665-6876</span></p>
           <div className='mailme'>
-             <a href='#'>
-              <h4>enviame un mail</h4>
+             <a href='https://wa.me/3416656876'>
+              <h4>Enviame un mensaje</h4>
              </a>
           </div>
         </div>
