@@ -1,6 +1,7 @@
 
 import { toBeRequired } from '@testing-library/jest-dom/dist/matchers';
 import React from 'react';
+import { Link } from 'react-router-dom';
 import '../styles/Header.css';
 import Navbar from './Navbar.js';
 import { FaYoutube } from "react-icons/fa";
@@ -44,17 +45,15 @@ function Header(){
             </div>
 
             <div className = "contenedor-logo">
-                <p className='logo'>gnoboc</p>
+                <Link to = '/' className='logo'>gnoboc</Link>
             </div>
  
             <div className='navbar-container'>
                 <Navbar menu = 'Home' proyectos = 'Proyectos' contacto = "Contacto"/>
             </div>
         </header>
-        
     )
 }
-
 
 
 export default Header;
