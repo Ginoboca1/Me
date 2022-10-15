@@ -4,16 +4,13 @@ import { NavLink } from 'react-router-dom';
 
 
  
-function Navbar(props){
+function Navbar({ menu, proyectos, contacto }){
 
     return(
             <nav className='navbar'>
-              <NavLink
-               className={({ isActive }) => (isActive ? "active" : "")}
-               to= '/'>{props.menu}
-               </NavLink>
-              <NavLink className={({ isActive }) => (isActive ? "active" : "")} to= '/proyectos'>{props.proyectos}</NavLink>
-              <NavLink className={({ isActive }) => (isActive ? "active" : "")} to= '/contacto'>{props.contacto}</NavLink>
+              <NavLink className={({ isActive }) => (isActive ? "active" : "")} to= '/'>{menu}</NavLink>
+              <NavLink className={({ isActive }) => (isActive ? "active" : "")} to= '/proyectos'>{proyectos}</NavLink>
+              <NavLink className={({ isActive }) => (isActive ? "active" : "")} to= '/contacto'>{contacto}</NavLink>
             </nav>
     )
 }

@@ -5,7 +5,7 @@ import Ubicacion from "../components/Ubicacion";
 function Home() {
     return (
         <div>
-            <Portada menu = 'Home' proyectos = 'Proyectos' contacto = "Contacto" />
+            <Portada menu = 'Home' proyectos = 'Proyectos' contacto = 'Repositorio' />
             <h1 className='title'>¿Quien soy?</h1>
             <Testimonio 
              name = 'Gino Boca'
