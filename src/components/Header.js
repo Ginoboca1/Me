@@ -15,7 +15,7 @@ function Header() {
       <div className="menu-btn" id="btn-menu">
         <AiOutlineMenu />
       </div>
-      <div className = 'redes' >
+      <div className = {`redes${clicked ? '-active' : ''}`} >
         <div className="red">
           <a href="https://www.instagram.com/ginob.jpg/">
             <FaYoutube />
