@@ -23,17 +23,17 @@
 .name-collaborator{
     font-size: 2rem;
     text-transform: uppercase;
-    font-weight: bold;
+    font-weight: 500;
 }
 
 .job-collaborator{
     margin: 10px 0;
-    font-weight: bold;
+    font-weight: 400;
 }
 
 .description{
     line-height: 1.5rem;
-    font-weight: bold;
+    font-weight:300;
 }
 
 @media(max-width: 768px) {

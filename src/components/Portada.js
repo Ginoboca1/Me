@@ -1,4 +1,3 @@
-import React from "react";
 import "../styles/Portada.css";
 import { SiGooglemessages } from "react-icons/si";
 import { FaGithub } from "react-icons/fa";

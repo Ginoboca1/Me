@@ -1,23 +1,23 @@
-import { toBeRequired } from "@testing-library/jest-dom/dist/matchers";
-import React from "react";
 import { Link } from "react-router-dom";
+import { useState } from "react";
 import "../styles/Header.css";
 import Navbar from "./Navbar.js";
-import { FaYoutube } from "react-icons/fa";
-import { FaInstagram } from "react-icons/fa";
-import { FaTwitter } from "react-icons/fa";
-import { AiOutlineMenu } from "react-icons/ai";
-import { AiFillLinkedin } from "react-icons/ai";
+import { FaYoutube, FaInstagram, FaTwitter } from "react-icons/fa";
+import { AiOutlineMenu, AiFillLinkedin  } from "react-icons/ai";
+import { BsList } from "react-icons/bs";
 
 function Header() {
+
+  const [clicked, setClicked] = useState(false);
+
   return (
     <header className="header-contenedor">
       <div className="menu-btn" id="btn-menu">
         <AiOutlineMenu />
       </div>
-      <div className="redes">
+      <div className = 'redes' >
         <div className="red">
-          <a href="#">
+          <a href="https://www.instagram.com/ginob.jpg/">
             <FaYoutube />
           </a>
         </div>
@@ -47,9 +47,13 @@ function Header() {
         </Link>
       </div>
 
-      <div className="navbar-container">
-        <Navbar menu="Home" proyectos="Proyectos" contacto="Contacto" />
+      <div className = {`navbar-container-${clicked ? 'active' : ''}`}>
+        <Navbar menu="Home" proyectos="Proyectos" contacto="Contacto" clicked = {clicked} setClicked = {setClicked} />
       </div>
+
+      <button className="nav-icon" onClick={() => setClicked(!clicked)}>
+        <BsList />
+      </button>
     </header>
   );
 }

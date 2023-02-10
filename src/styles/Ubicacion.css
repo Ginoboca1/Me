@@ -18,19 +18,20 @@
 .redess{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    
+    justify-content: flex-start;
+    align-items:center;
 }
 
 .redess li{
     list-style: none;
-    align-items: center;
+  
 }
 
 .redess a{
     text-decoration: none;
     color: var(--black);
 }
+
 
 @media(max-width: 768px) {
     .contenedor{

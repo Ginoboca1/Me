@@ -20,8 +20,8 @@ function Ubicacion (){
           <div className='redes-contenedor'>
             <ul className='redess'>
                 <li>
-                  <a href='#'>
-                     <p><i><FaInstagram /></i> ginob.jpg</p>
+                  <a href='h'>
+                    <p><i><FaInstagram /></i>ginob.jpg</p>
                   </a>
                 </li>
 
