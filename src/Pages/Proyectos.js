@@ -13,7 +13,7 @@ export default function Proyectos() {
           <a href='https://ginoboca1.github.io/CalculadoraReactJS/'>Calculadora React</a>
           <a href='https://ginoboca1.github.io/relojDigital.js/'>Reloj Digital</a>
           <a href='https://ginoboca1.github.io/userAuthFirebase/'>Firebase Auth </a>
-          <a href='https://ginoboca1.github.io/Tech-commerce/'>E-commerce-(en desarrollo)</a>
+          <a href='https://megarocketgym-app.vercel.app/auth/home'>MegaRocket</a>
           <a href='https://github.com/Ginoboca1?tab=repositories'> repositorio github</a>
        </div>
     </div>

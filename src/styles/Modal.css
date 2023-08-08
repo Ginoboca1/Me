@@ -1,0 +1,69 @@
+.container {
+  position: fixed;
+  display: flex;
+  top: 0;
+  left: 0;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  z-index: 3;
+}
+
+.modal-container {
+  background-color: white;
+  border-radius: 1px;
+  display: grid;
+  padding: 20px;
+  gap: 20px;
+  width: 350px;
+}
+
+.content {
+  display: flex;
+}
+
+.content p{
+    margin-top:20px;
+}
+.icon {
+  cursor: pointer;
+  font-size:40px;
+}
+
+.icon:hover {
+  color: var(--red);
+}
+
+.buttons-container {
+  display: flex;
+  gap: 10px;
+  justify-content: right;
+}
+
+.button {
+  margin: 5px;
+  width: 70px;
+  height: 30px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  color: white;
+  line-height: 20px;
+  text-align: center;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  transition: 0.2s;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.button-cancel{
+    background-color: var(--black);
+}
+.button-accept{
+    background-color: var(--red);
+}
