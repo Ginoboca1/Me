@@ -1,70 +1,85 @@
+.contenedor-testimonio {
+  width: 50%;
+  display: flex;
+  gap: 3rem;
+  background-color: #f5f6f7;
+  padding: 2rem;
+  box-shadow: 0px 5px 10px -3px rgba(0, 0, 0, 0.55);
+  transition: all 0.2s ease-in;
+}
 
-.contenedor-testimonio{
-    width: 80%;
-    margin: 3rem auto;
+.contenedor-testimonio:hover {
+  transform: scale(1.05);
+}
+
+.text-testimonio-container {
+  min-width: 50%;
+}
+
+.image-testimonio {
+  width: 15rem;
+  border-radius: 50%;
+  border: solid var(--red) 4px;
+}
+
+.name-collaborator {
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.job-collaborator {
+  margin: 10px 0;
+  font-weight: 400;
+}
+
+.description {
+  line-height: 1.5rem;
+  font-weight: 300;
+}
+
+@media (max-width: 970px){
+  .contenedor-testimonio{
+    height:350px;
+    flex-direction:column;
+    gap:20px;
+  }
+
+  .image-testimonio{
+    width:8rem;
+    height:150px;
+  }
+}
+
+@media (max-width: 768px) {
+  .contenedor-testimonio {
     display: flex;
-    gap: 3rem;
-    background-color:#f5f6f7;
-    padding: 1rem;
-    box-shadow: 0 3px 13px 1px rgb(0, 0, 0 / 15%);
-    
-}
+    flex-direction: column;
+    align-items: center;
+    min-height: 400px;
+    width: 70%;
+  }
 
-.text-testimonio-container{
-    min-width: 50%;
-}
-
-.image-testimonio{
-    width: 15rem;
+  .image-testimonio {
+    width: 9rem;
     border-radius: 50%;
-    border: solid var(--red) 4px;
-}
+    border: solid var(--red) 2px;
+  }
 
-.name-collaborator{
+  .text-container {
+    text-align: center;
+  }
+
+  .text-testimonio-container {
+    text-align: center;
+  }
+
+  .name-collaborator {
     font-size: 2rem;
     text-transform: uppercase;
-    font-weight: 500;
-}
+  }
 
-.job-collaborator{
-    margin: 10px 0;
-    font-weight: 400;
-}
-
-.description{
-    line-height: 1.5rem;
-    font-weight:300;
-}
-
-@media(max-width: 768px) {
-    .contenedor-testimonio{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        min-height:400px;
-    }
-
-    .image-testimonio{
-        width: 9rem;
-        border-radius: 50%;
-        border: solid var(--red) 2px;
-    }
-
-    .text-container{
-        text-align: center;
-    }
-
-    .text-testimonio-container{
-        text-align: center;
-    }
-
-    .name-collaborator{
-        font-size: 2rem;
-        text-transform: uppercase;
-    }
-    
-
-    .job-collaborator{
-        margin: 5px 0;
-    }
+  .job-collaborator {
+    margin: 5px 0;
+  }
 }

@@ -1,4 +1,3 @@
-
 @media(min-width: 768px) {
     .contenedor-principal{
         width: 100%;
@@ -11,14 +10,14 @@
         gap: 2rem;
     }
     
-    .contacto-links{
+    .projects-links{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         gap: 2rem;
         text-transform: uppercase;
     }
     
-    .contacto-links a{
+    .projects-links a{
         text-decoration: none;
         color: white;
         display: flex;
@@ -31,21 +30,20 @@
         background-color:var(--black);
     }
     
-    .contacto-links a:hover{
+    .projects-links a:hover{
         background-color: rgb(78, 78, 78);
         transition: 0.2s;
     }
     
-    .contacto-links a:last-child{
+    .projects-links a:last-child{
         background-color: var(--red);
         grid-row:3;
         grid-column:2;
     }
-    .contacto-links a:last-child:hover{
+    .projects-links a:last-child:hover{
         background-color: rgb(207, 8, 8);
     }
 }
-
 
 .contenedor-principal{
     width: 100%;
@@ -57,13 +55,13 @@
     gap: 2rem;
 }
 
-.contacto-links{
+.projects-links{
     display: grid;
     gap: 2rem;
     text-transform: uppercase;
 }
 
-.contacto-links a{
+.projects-links a{
     text-decoration: none;
     color: white;
     display: flex;
@@ -76,38 +74,10 @@
     background-color:var(--black);
 }
 
-.contacto-links a:last-child{
+.projects-links a:last-child{
     background-color: var(--red);
 }
 
-.contacto-links a:last-child:hover{
+.projects-links a:last-child:hover{
     background-color: rgb(207, 8, 8);
 }
-
-
-
-/*CONTACTO*/
-
-.contenedor-contacto{
-    font-weight: 500;
-}
-
-.contenedor-contacto span{
-    color: var(--red);
-}
-
-.mailme{
-    text-align: center;
-    margin-top: 2rem;
-  
-}
-.mailme a{
-    text-decoration: none;
-    color: var(--black);
-}
-.mailme h4{
-    border: solid 2px var(--black);
-    padding: 0.5rem 0.5rem;
-    letter-spacing: 2px;
-}
-

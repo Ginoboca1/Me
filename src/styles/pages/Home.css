@@ -1,0 +1,67 @@
+.home-container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.aboutMe-container {
+  display: flex;
+  flex-direction:row;
+  justify-content: center;
+  margin: 3rem 0;
+  width: 100%;
+  gap: 30px;
+}
+
+.ubication-container {
+  width: 30%;
+  background-color: var(--backgroundGrey);
+  display: grid;
+  justify-content: center;
+  padding: 20px;
+  transition: all 0.2s ease-in;
+  box-shadow: 0px 5px 10px -3px rgba(0, 0, 0, 0.55);
+}
+
+.ubication-container:hover {
+  transform: scale(1.05);
+}
+
+.country-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.map-icon {
+  font-size: 30px;
+  color: red;
+}
+
+.city {
+  font-size: 20px;
+}
+
+.text{
+  line-height: 1.5rem;
+  font-weight: 300;
+}
+
+@media(max-width: 970px){
+  .aboutMe-container{
+    
+  }
+}
+
+@media(max-width: 768px){
+  .home-container{
+    width:100%;
+  }
+  .aboutMe-container{
+    flex-direction:column;
+    align-items:center;
+    width:100%;
+  }
+  .ubication-container{
+    width:70%;
+  }
+}
