@@ -28,7 +28,7 @@ function Home() {
           className="contenedor-testimonio"
           imagen="gino"
           job="Frontend Web Developer"
-          description="Hello! My name is Gino. I'm a Frontend Web Developer, I design responsive websites, and I specialize in React. I really enjoy coffee, music, and I'm fond of cats. No, seriously. I love cats."
+          description="Gino is a frontend web developer who specializes in React and has experience working with Node Frameworks like Express and databases like MongoDB. He is currently learning NestJS. He enjoys coffee, music, and cats"
         />
 
         <div className="ubication-container">

@@ -1,8 +1,8 @@
 {
-  "name": "myfirstapp",
+  "name": "me",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ginoboca1.github.io/",
+  "homepage": "https://github.com/Ginoboca1/Me/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.2",
     "@testing-library/react": "^12.1.4",
