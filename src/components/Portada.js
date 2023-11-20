@@ -17,11 +17,11 @@ function Portada({ menu, projects, contact }) {
         </div>
         <div className="portada-links">
           <Link to="/">{menu} </Link>
-          <a href="https://github.com/Ginoboca1?tab=repositories">
+          <Link to="/proyectos">
             {" "}
             <FaGithub />
-            {projects}
-          </a>
+            {projects}{" "}
+          </Link>
           <Link to="/contacto">
             {" "}
             <SiGooglemessages />
