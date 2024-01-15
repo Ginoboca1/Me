@@ -1,60 +1,61 @@
-@media(min-width: 768px) {
-    .main-container{
-        width: 100%;
-        display:flex;
-        flex-direction:column;
-        align-items:center;
-        gap:20px;
-    }
-}
-
-.main-container{
+@media (min-width: 768px) {
+  .main-container {
     width: 100%;
-    display:flex;
-    margin: 19rem auto;
-    flex-direction:column;
-    align-items:center;
-    gap:20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
 }
 
-.contenedor-contacto{
-    font-weight: 500;
+.main-container {
+  width: 100%;
+  display: flex;
+  margin: 19rem auto;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
 }
 
-.contenedor-contacto span{
-    color: var(--red);
+.contenedor-contacto {
+  font-weight: 500;
 }
 
-.mailme{
-    text-align: center;
-    margin-top: 2rem;
-  
-}
-.mailme a{
-    text-decoration: none;
-    color: var(--black);
-}
-.mailme h4{
-    border: solid 2px var(--black);
-    padding: 0.5rem 0.5rem;
-    letter-spacing: 2px;
+.contenedor-contacto a,
+.contenedor-contacto span {
+  color: var(--red);
+  text-decoration: none;
 }
 
-.contact-button{
-    margin-top:20px;
-    padding: 8px 15px;
-    background-color: transparent;
-    border: solid 1px var(--black);
-    cursor:pointer;
-    transition: 0.5s all;
-    text-transform:uppercase;
+.mailme {
+  text-align: center;
+  margin-top: 2rem;
+}
+.mailme a {
+  text-decoration: none;
+  color: var(--black);
+}
+.mailme h4 {
+  border: solid 2px var(--black);
+  padding: 0.5rem 0.5rem;
+  letter-spacing: 2px;
 }
 
-.contact-button:hover{
-    background-color:var(--red);
+.contact-button {
+  margin-top: 20px;
+  padding: 10px 16px;
+  background-color: var(--black);
+  border: none;
+  cursor: pointer;
+  transition: 0.5s all;
+  text-transform: uppercase;
 }
 
-.contact-button a{
-    text-decoration:none;
-    color: var(--black);
+.contact-button:hover {
+  background-color: var(--red);
+}
+
+.contact-button a {
+  text-decoration: none;
+  color: white;
 }

@@ -28,7 +28,7 @@ function Home() {
           className="contenedor-testimonio"
           imagen="gino"
           job="Frontend Web Developer"
-          description="Gino is a frontend web developer who specializes in React and has experience working with Node Frameworks like Express and databases like MongoDB. He is currently learning NestJS. He enjoys coffee, music, and cats"
+          description="Gino is a frontend web developer who specializes in React and has experience working with Node Frameworks like Nest.js and databases like MongoDB. He is currently learning NestJS. He enjoys coffee, music, and cats"
         />
 
         <div className="ubication-container">
@@ -39,9 +39,9 @@ function Home() {
             <p className="city">Funes, Argentina.</p>
           </div>
           <p className="text">
-            I live in a small town 6km away from Rosario called Funes. A place
+            I'm living in a town 6km away from Rosario called Funes. A place
             with terrible internet and dirt roads, but I enjoy living life on
-            the edge, so to hell with that..
+            the edge, so to hell with that...
           </p>
         </div>
       </div>

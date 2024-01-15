@@ -19,12 +19,12 @@ function Portada({ menu, projects, contact }) {
           <Link to="/">{menu} </Link>
           <Link to="/proyectos">
             {" "}
-            <FaGithub />
+            {/* <FaGithub /> */}
             {projects}{" "}
           </Link>
           <Link to="/contacto">
             {" "}
-            <SiGooglemessages />
+            {/* <SiGooglemessages /> */}
             {contact}{" "}
           </Link>
         </div>

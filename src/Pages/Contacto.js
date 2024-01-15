@@ -9,13 +9,11 @@ export default function Contacto() {
           Mail <span>gnoboca@gmail.com</span>
         </p>
         <p>
-          Phone <span>+54 (341) 665-6876</span>
+          Phone <a href="https://t.me/Ginoboca1">+54 (341) 665-6876</a>
         </p>
       </div>
       <button className="contact-button">
-        <a href="mailto:gnoboca@gmail.com?">
-          mail me
-        </a>
+        <a href="mailto:gnoboca@gmail.com?">mail me</a>
       </button>
     </div>
   );
