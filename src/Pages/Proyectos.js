@@ -1,9 +1,18 @@
 import React from "react";
+import { AiOutlineArrowLeft } from "react-icons/ai";
 import "../styles/pages/Proyectos.css";
+import { useNavigate } from "react-router-dom";
 
 export default function Proyectos() {
+  const navigate = useNavigate();
   return (
     <div className="contenedor-principal">
+      <div className="icon-container">
+        <AiOutlineArrowLeft
+          className="arrow-icon"
+          onClick={() => navigate("/")}
+        />
+      </div>
       <h1>My Projects</h1>
       <div className="projects-links">
         <a href="https://ginoboca1.github.io/Natural-Food/">Natural Food</a>

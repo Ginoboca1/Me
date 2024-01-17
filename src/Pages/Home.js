@@ -12,8 +12,10 @@ function Home() {
     const modalShown = sessionStorage.getItem("modalShown");
 
     if (!modalShown) {
-      setShowModal(true);
-      sessionStorage.setItem("modalShown", "true");
+      setTimeout(() => {
+        setShowModal(true);
+        sessionStorage.setItem("modalShown", "true");
+      }, 2000);
     }
   }, []);
 
