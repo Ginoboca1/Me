@@ -29,8 +29,8 @@ function Home() {
           name="Gino Boca"
           className="contenedor-testimonio"
           imagen="gino"
-          job="Frontend Web Developer"
-          description="Gino is a frontend web developer who specializes in React and has experience working with Node Frameworks like Nest.js and databases like MongoDB. He is currently learning NestJS. He enjoys coffee, music, and cats"
+          job="FullStack Web Developer"
+          description="Gino is a frontend web developer who specializes in React and has experience working with Node Frameworks like Nest.js and databases like MongoDB. He is currently learning backend technologies. He enjoys coffee, music, and cats"
         />
 
         <div className="ubication-container">
