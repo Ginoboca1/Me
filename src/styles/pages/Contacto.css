@@ -28,7 +28,6 @@
 .contenedor-contacto a,
 .contenedor-contacto span {
   color: var(--red);
-  text-decoration: none;
 }
 
 .mailme {

@@ -15,8 +15,8 @@ export default function Proyectos() {
       </div>
       <h1>My Projects</h1>
       <div className="projects-links">
-        <a href="https://ginoboca1.github.io/Natural-Food/">Natural Food</a>
-        <a href="https://ginoboca1.github.io/CalculadoraReactJS/">
+        <a href="ginoboca1.github.io/React-Restaurant/">React restaurant</a>
+        <a href="https://github.com/Ginoboca1/CalculadoraReactJS">
           React Calculator
         </a>
         <a href="https://ginoboca1.github.io/userAuthFirebase/">
