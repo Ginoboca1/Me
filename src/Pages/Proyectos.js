@@ -24,7 +24,7 @@ export default function Proyectos() {
         <a href="https://ginoboca1.github.io/userAuthFirebase/">
           Firebase Auth{" "}
         </a>
-        <a href="https://fallacious-whitefish-1fb.notion.site/WS-Chat-1-c1205ecdb38c417fa5f5086f834d15a0">
+        <a href="https://ws-chat-docs.notion.site/ws-chat-docs/WS-chat-Documentation-9a8e560cb2684625a5ded02c86f18444">
           Socket.io Chat
         </a>
         <a href="https://ws-chat-docs.notion.site/Nest-js-API-4037fd68c24e474ab6553a6e3137dd78?pvs=74">
