@@ -23,7 +23,7 @@ function Home() {
     <div className="home-container">
       {showModal && <Modal setShowModal={setShowModal} />}
       <Portada menu="Home" projects="Projects" contact="Contact" />
-      <h1 className="title">¿Who f#$& I am?</h1>
+      <h1 className="title">Who I am?</h1>
       <div className="aboutMe-container">
         <Testimonio
           name="Gino Boca"
